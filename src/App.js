@@ -43,21 +43,22 @@ class App extends Component {
         // fetch data from Operational API
         fetch('http://versus-dev-ops-api.azurewebsites.net/api/v0/locationhierarchy')
             .then(response => response.json())
-            // callback 
-            .then(response => this.setState({ apiDataList: response }, state => console.log(this.state.apiDataList)))
-
-
-                .catch(err => {
-                    console.log("Fetch error: " + err);
-                });
-            
-            // filter for column 1 data
-            var filteredIDNTier = _.filter(this.state.apiDataList, { 'level': 1 });
-            console.log('filtered IDN Tier: ', filteredIDNTier)
-            // populate column 1 with data at launch
-            this.setState({ columnTier1: filteredIDNTier })
+            .catch(err => {
+                console.log("Fetch error: " + err);
+            })
+           // .then(response => this.setState({ apiDataList: response }, state => console.log('API Data: ', this.state.apiDataList)))
+            .then(response => this.setState({ apiDataList: response }, this.filterAPIData))
+            console.log('Mount test')
     }
 
+    filterAPIData() {
+        console.log("filter api test")
+        // filter for column 1 data
+        var filteredIDNTier = _.filter(this.state.apiDataList, { 'level': 1 });
+        console.log('filtered IDN Tier: ', filteredIDNTier);
+        // populate column 1 with data at launch
+        this.setState({ columnTier1: filteredIDNTier });
+    }
 
     handleClick(selectedItem) {
         // See value user clicked
@@ -154,7 +155,6 @@ class App extends Component {
             marginTop: "2em",
             marginBottom: "3em",
             color: "#000",
-            textAlign: "center"
         }
 
         var selectedTitle = {
