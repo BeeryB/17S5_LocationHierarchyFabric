@@ -51,13 +51,13 @@ class LocationList extends Component {
         return (
             <div style={divStyle} className="ms-Grid-col ms-lg2">
                 <p style={titleStyle}>{this.state.title}</p>
-                <div style={listStyle} value={this.props.tier}>
+                <div style={listStyle} value={this.props.level}>
                     {this.props.list.length ? this.props.list.map(location => // Call Location Component unless list is empty - should be props, update state in parent that will pass down new props value 
                         <Location
                             location={location}
-                            key={location.LocationId + location.LocationName}
+                            key={location.locationID + location.locationName}
                             tier={this.props.level}
-                            title={this.props.title}
+                            title={location.locationName}
                             handler={this.handleClick}
                             highlightClass={this.isSelected(location)}
                         />

@@ -9,7 +9,6 @@ class App extends Component {
         super(props);
         this.state = {
             apiDataList: [],
-            fakeJSONDataList: [],
             idnList: [],
             columnTier1: [],
             columnTier2: [],
@@ -23,12 +22,6 @@ class App extends Component {
             clickedResultsTier4: "",
             clickedResultsTier5: "",
             clickedResultsTier6: "",
-            tierStatus1: false,
-            tierStatus2: false,
-            tierStatus3: false,
-            tierStatus4: false,
-            tierStatus5: false,
-            tierStatus6: false,
             extendedData: [],
             sensorId: "",
             collectorId: "",
@@ -57,7 +50,7 @@ class App extends Component {
         var filteredIDNTier = _.filter(this.state.apiDataList, { 'level': 1 });
         console.log('filtered IDN Tier: ', filteredIDNTier);
         // populate column 1 with data at launch
-        this.setState({ columnTier1: filteredIDNTier });
+        this.setState({ columnTier1: filteredIDNTier}, state => console.log('Column 1, IDN data: ', this.state.columnTier1));
     }
 
     handleClick(selectedItem) {
@@ -121,20 +114,20 @@ class App extends Component {
         }
 
         // filter master list of locations for children locations of clicked
-        var FilteredListFromSelection = _.filter(this.props.fakeData, { 'TierLevel': selectedItem.TierLevel + 1, 'ParentTierId': selectedItem.LocationId });
+        var FilteredListFromSelection = _.filter(this.props.fakeData, { 'TierLevel': selectedItem.level + 1, 'ParentTierId': selectedItem.LocationId });
         // update child tier list     
-        this.setState({ ["columnTier" + (selectedItem.TierLevel + 1)]: FilteredListFromSelection })
-        this.setState({ extendedData: selectedItem.ExtendedData })
-        this.setState({ sensorId: selectedItem.SensorId })
-        this.setState({ collectorId: selectedItem.CollectorId })
-        this.setState({ sensorType: selectedItem.SensorType })
-        this.setState({ ["clickedResultsTier" + (selectedItem.TierLevel)]: selectedItem.LocationName })
-        this.setState({ ["tierStatus" + (selectedItem.TierLevel)]: true })
+        this.setState({ ["columnTier" + (selectedItem.level + 1)]: FilteredListFromSelection })
+        this.setState({ extendedData: selectedItem.extendedData })
+        this.setState({ sensorId: selectedItem.sensorId })
+        this.setState({ collectorId: selectedItem.collectorId })
+        this.setState({ sensorType: selectedItem.sensorType })
+        this.setState({ ["clickedResultsTier" + (selectedItem.level)]: selectedItem.locationName })
+        this.setState({ ["tierStatus" + (selectedItem.level)]: true })
     }
 
     handleHighlight(selectedItem) {
         // this.setState({highlightList1: false})
-        console.log("remove highlight from this tier list: ", ["highlightList" + (selectedItem.TierLevel + 1)])
+        console.log("remove highlight from this tier list: ", ["highlightList" + (selectedItem.level + 1)])
     }
 
     render() {

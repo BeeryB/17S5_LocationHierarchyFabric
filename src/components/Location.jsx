@@ -22,19 +22,20 @@ class Location extends Component {
         }
 
         let location = this.props.location;
-        console.log(this.props)     
+        console.log('location: ', this.props.location)
 
         return(
             <div 
                 id="item"
                 style={locationStyle}  
-                key={location.LocationId} 
-                value={location.Name} 
-                level={location.Level}
+                key={location.locationId + location.locationName}
+                value={location.locationID} 
+                level={location.level}
                 onClick={this.onClick}
                 className={this.props.highlightClass}
             >
-                {location.LocationName} 
+               {/*} {location.LocationName} */}
+              { location.locationName}
             </div> 
         );
     }
