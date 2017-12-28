@@ -1,15 +1,9 @@
+
 body {
-    background: #c1bdba;
-    font-family: 'Open Sans' !important;
-    font-weight: 100;
+    background-color: rgb(224, 223, 223)
 }
 
-.App {
-    text-align: center;
-    background: white;
-}
-
-#app {
+#tile {
     padding: 45px;
     padding-bottom: 50px;
     background-color: #fff;
@@ -17,9 +11,6 @@ body {
     height: 875px;
     width: 1550px;
     border-radius: 4px;
-    position: absolute;
-    top: 100px;
-    left: 100px;
     box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 }
 

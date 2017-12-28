@@ -1,0 +1,3134 @@
+
+
+    [
+        {
+            "LocationId": 9001,
+            "LocationName": "Cadillac Hospital",
+            "ParentTierId": 0,
+            "TierLevel": 1, 
+            "ExtendedData": "Address: 400 Hobart St. | Cadillac, MI 49601"
+        },
+        {
+            "LocationId": 9002,
+            "LocationName": "Munson Medical Center",
+            "ParentTierId": 0,
+            "TierLevel": 1, 
+            "ExtendedData": "Address: 1105 Sixth St. | Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9003,
+            "LocationName": "Northwest MI Surgery Center",
+            "ParentTierId": 0,
+            "TierLevel": 1, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 4100 Park Forest Dr. | Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9004,
+            "LocationName": "Ostego Memorial Hospital",
+            "ParentTierId": 0,
+            "TierLevel": 1, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 825 N. Center Avenue | Gaylord, MI 49735"
+        },
+        {
+            "LocationId": 9005,
+            "LocationName": "Cadillac Hospital Main Campus",
+            "ParentTierId": 9001,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 400 Hobart St. | Cadillac, MI 49601"
+        },
+        {
+            "LocationId": 9006,
+            "LocationName": "Cadillac Primary Care",
+            "ParentTierId": 9001,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 7985 Mackinaw Trl. | Cadillac, MI 49601"
+        },
+        {
+            "LocationId": 9007,
+            "LocationName": "Cadillac Occupational Medicine",
+            "ParentTierId": 9001,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 400 Hobart St. | Cadillac, MI 49601"
+        },
+        {
+            "LocationId": 9008,
+            "LocationName": "McBain Primary Care",
+            "ParentTierId": 9001,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 100 N. Roland St. | McBain, MI 49657"
+        },
+        {
+            "LocationId": 9011,
+            "LocationName": "MMC Main Campus",
+            "ParentTierId": 9002,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 1105 Sixth St. | Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9009,
+            "LocationName": "Copper Ridge Professional",
+            "ParentTierId": 9002,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: Copper Ridge Dr |  Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9010,
+            "LocationName": "Cowell Family Cancer Center",
+            "ParentTierId": 9002,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 217 S. Madison St. | Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9012,
+            "LocationName": "Northwest MI Surgery Center ",
+            "ParentTierId": 9003,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 4100 Park Forest Dr. | Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9013,
+            "LocationName": "OMH Main Campus",
+            "ParentTierId": 9004,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 825 N Center Ave, Gaylord, MI 49735"
+        },
+        {
+            "LocationId": 9014,
+            "LocationName": "MedCare Walk-In Clinic",
+            "ParentTierId": 12,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 1996 Walden Dr, Gaylord, MI 49735"
+        },
+        {
+            "LocationId": 9015,
+            "LocationName": "Oncology & Infusion Center",
+            "ParentTierId": 9004,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 701 N Otsego Ave, Gaylord, MI 49735"
+        },
+        {
+            "LocationId": 9016,
+            "LocationName": "OMH Orthopedic & Rehab ",
+            "ParentTierId": 9004,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 2147 Professional Drive, Gaylord, MI 49735"
+        },
+        {
+            "LocationId": 9017,
+            "LocationName": "Boyne Valley",
+            "ParentTierId": 9004,
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 2572 North US-131, Elmira, MI 49730"
+        },
+        {
+            "LocationId": 9018,
+            "LocationName": "Indian River",
+            "ParentTierId": 9004, 
+            "TierLevel": 2, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 3860 S. Straits Hwy, Indian River, MI 49749"
+        },
+        {
+            "LocationId": 9019,
+            "LocationName": "Cadillac Hospital Main",
+            "ParentTierId": 9005, 
+            "TierLevel": 3, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 400 Hobart St. | Cadillac, MI  49601"
+        },
+            {
+            "LocationId": 9020,
+            "LocationName": "Professional Services",
+            "ParentTierId": 9005, 
+            "TierLevel": 3, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 401 Hobart St. | Cadillac, MI  49601"
+        },
+        {
+            "LocationId": 9021,
+            "LocationName": "Professional Building D",
+            "ParentTierId": 9009, 
+            "TierLevel": 3, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 4110 Copper Ridge Dr |  Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9022,
+            "LocationName": "Professional Building E",
+            "ParentTierId": 9009, 
+            "TierLevel": 3, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 4230 Copper Ridge Dr |  Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9023,
+            "LocationName": "Cowell Family Cancer Center",
+            "ParentTierId": 9010, 
+            "TierLevel": 3, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 217 S. Madison St. | Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9024,
+            "LocationName": "Munson Medical Center",
+            "ParentTierId": 9011, 
+            "TierLevel": 3, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 1105 Sixth St. | Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9025,
+            "LocationName": "Munson Professional Building",
+            "ParentTierId": 9011, 
+            "TierLevel": 3, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 1108 Sixth St. | Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9026,
+            "LocationName": "Northwest MI Surgery Center",
+            "ParentTierId": 9012, 
+            "TierLevel": 3, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 4100 Park Forest Dr. | Traverse City, MI 49684"
+        },
+        {
+            "LocationId": 9027,
+            "LocationName": "OMH Main",
+            "ParentTierId": 9013, 
+            "TierLevel": 3, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Address: 825 N Center Ave, Gaylord, MI 49735"
+        },
+        {
+            "LocationId": 9028,
+            "LocationName": "Floor 1",
+            "ParentTierId": 9019, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 876-7200  ext: 101"
+        },
+        {
+            "LocationId": 9029,
+            "LocationName": "Floor 2",
+            "ParentTierId": 9019, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 876-7200  ext: 102"
+        },
+        {
+            "LocationId": 9030,
+            "LocationName": "Floor 3",
+            "ParentTierId": 9019, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 876-7200  ext: 103"
+        },
+        {
+            "LocationId": 9031,
+            "LocationName": "Floor 4",
+            "ParentTierId": 9019, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 876-7200  ext: 104"
+        },
+        {
+            "LocationId": 9032,
+            "LocationName": "Floor 5",
+            "ParentTierId": 9019, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 876-7200  ext: 105"
+        },
+        {
+            "LocationId": 9033,
+            "LocationName": "Floor 6",
+            "ParentTierId": 9019, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 876-7200  ext: 106"
+        },
+        {
+            "LocationId": 9034,
+            "LocationName": "Floor 1",
+            "ParentTierId": 9020, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 876-7200  ext: 221"
+        },
+        {
+            "LocationId": 9035,
+            "LocationName": "Floor 2",
+            "ParentTierId": 9020, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 876-7200  ext: 223"
+        },
+        {
+            "LocationId": 9036,
+            "LocationName": "Floor 1",
+            "ParentTierId": 9024, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 935-5000 ext: 101"
+        },
+        {
+            "LocationId": 9037,
+            "LocationName": "Floor 2",
+            "ParentTierId": 9024, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 935-5000 ext: 102"
+        },
+        {
+            "LocationId": 9038,
+            "LocationName": "Floor 3",
+            "ParentTierId": 9024, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 935-5000 ext: 103"
+        },
+        {
+            "LocationId": 9039,
+            "LocationName": "Floor 4",
+            "ParentTierId": 9024, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 935-5000 ext: 104"
+        },
+        {
+            "LocationId": 9040,
+            "LocationName": "Floor 5",
+            "ParentTierId": 9024, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 935-5000 ext: 105"
+        },
+        {
+            "LocationId": 9041,
+            "LocationName": "Floor 6",
+            "ParentTierId": 9024, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (231) 935-5000 ext: 106"
+        },        
+        {
+            "LocationId": 9042,
+            "LocationName": "Floor 1",
+            "ParentTierId": 9025, 
+            "TierLevel": 4, 
+            "SensorId": "1302701544_1",
+            "CollectorId": "1302701544",
+            "SensorType": "V-Direct",
+            "ExtendedData": "Phone: (231) 935-5002 ext: 456"
+        },
+        {
+            "LocationId": 9043,
+            "LocationName": "Floor 2",
+            "ParentTierId": 9025, 
+            "TierLevel": 4, 
+            "SensorId": "1302701544_2",
+            "CollectorId": "1302701544",
+            "SensorType": "V-Direct",
+            "ExtendedData": "Phone: (231) 935-5002 ext: 458"
+        },
+        {
+            "LocationId": 9044,
+            "LocationName": "Floor 3",
+            "ParentTierId": 9025, 
+            "TierLevel": 4, 
+            "SensorId": "1302701544_3",
+            "CollectorId": "1302701544",
+            "SensorType": "V-Direct",
+            "ExtendedData": "Phone: (231) 935-5002 ext: 460"
+        },
+        {
+            "LocationId": 9045,
+            "LocationName": "Floor 4",
+            "ParentTierId": 9025, 
+            "TierLevel": 4, 
+            "SensorId": "1302701544_4",
+            "CollectorId": "1302701544",
+            "SensorType": "V-Direct",
+            "ExtendedData": "Phone: (231) 392-8900"
+        },
+        {
+            "LocationId": 9046,
+            "LocationName": "Floor 1",
+            "ParentTierId": 9027, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (989) 731-2100 ext: 551"
+        },
+        {
+            "LocationId": 9047,
+            "LocationName": "Floor 2",
+            "ParentTierId": 9027, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (989) 731-2100 ext: 552"
+        },
+        {
+            "LocationId": 9048,
+            "LocationName": "Floor 3",
+            "ParentTierId": 9027, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (989) 731-2100 ext: 553"
+        },
+        {
+            "LocationId": 9049,
+            "LocationName": "Floor 4",
+            "ParentTierId": 9027, 
+            "TierLevel": 4, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (989) 731-2100 ext: 554"
+        },
+        {
+            "LocationId": 9050,
+            "LocationName": "Room 101",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9051,
+            "LocationName": "Room 102",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9052,
+            "LocationName": "Room 103",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9053,
+            "LocationName": "Room 104",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9054,
+            "LocationName": "Room 105",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9055,
+            "LocationName": "Room 106",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9056,
+            "LocationName": "Room 107",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9057,
+            "LocationName": "Room 108",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9058,
+            "LocationName": "Room 109",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9059,
+            "LocationName": "Room 110",
+            "ParentTierId": 9028, 
+            "TierLevel": 5, 
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9060,
+            "LocationName": "Room 201",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_1",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9061,
+            "LocationName": "Room 202",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_2",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9062,
+            "LocationName": "Room 203",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_3",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9063,
+            "LocationName": "Room 204",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_4",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9064,
+            "LocationName": "Room 205",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_5",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9065,
+            "LocationName": "Room 206",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_6",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9066,
+            "LocationName": "Room 207",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_7",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9067,
+            "LocationName": "Room 208",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_8",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9068,
+            "LocationName": "Room 209",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_9",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9069,
+            "LocationName": "Room 110",
+            "ParentTierId": 9029, 
+            "TierLevel": 5, 
+            "SensorId": "1302701568_10",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9070,
+            "LocationName": "Receptionist Desk 2",
+            "ParentTierId": 9029,
+            "TierLevel": 5,
+            "SensorId": "1302701567_10",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": "Phone: (989) 731-2101 ext: 222"
+        },
+        {
+            "LocationId": 9071,
+            "LocationName": "Room 301",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_1",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9072,
+            "LocationName": "Room 302",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_2",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9073,
+            "LocationName": "Room 303",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_3",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9074,
+            "LocationName": "Room 304",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_4",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9075,
+            "LocationName": "Room 305",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_5",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9076,
+            "LocationName": "Room 306",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_6",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9077,
+            "LocationName": "Room 307",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_7",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9078,
+            "LocationName": "Room 308",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_8",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9079,
+            "LocationName": "Room 309",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_9",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9080,
+            "LocationName": "Room 310 A",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_10",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9081,
+            "LocationName": "Room 310 B",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_11",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9082,
+            "LocationName": "Receptionist Desk 3",
+            "ParentTierId": 9030,
+            "TierLevel": 5,
+            "SensorId": "1302701568_12",
+            "CollectorId": "1302701568",
+            "SensorType": "V-Direct",
+            "ExtendedData": "Phone: (989) 731-2101 ext: 333"
+        },
+        {
+            "LocationId": 9083,
+            "LocationName": "Room 401",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_1",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9084,
+            "LocationName": "Room 402",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_2",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9085,
+            "LocationName": "Room 403",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_3",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9086,
+            "LocationName": "Room 404",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_4",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9087,
+            "LocationName": "Room 405",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_5",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9088,
+            "LocationName": "Room 406",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_6",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9089,
+            "LocationName": "Room 407",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_7",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9090,
+            "LocationName": "Room 408",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_8",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9091,
+            "LocationName": "Room 409",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_9",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9092,
+            "LocationName": "Room 410",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_10",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9093,
+            "LocationName": "Receptionist Desk 4",
+            "ParentTierId": 9031,
+            "TierLevel": 5,
+            "SensorId": "1302701569_11",
+            "CollectorId": "1302701569",
+            "SensorType": "V-Direct",
+            "ExtendedData": "Phone: (989) 731-2101 ext: 444"
+        },
+        {
+            "LocationId": 9094,
+            "LocationName": "Room 501",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_1",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9095,
+            "LocationName": "Room 502",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_2",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9096,
+            "LocationName": "Room 503",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_3",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9097,
+            "LocationName": "Room 504",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_4",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9098,
+            "LocationName": "Room 505",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_5",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9099,
+            "LocationName": "Room 506",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_6",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9100,
+            "LocationName": "Room 507",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_7",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9101,
+            "LocationName": "Room 508",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_8",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9102,
+            "LocationName": "Room 509",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_9",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9103,
+            "LocationName": "Room 510",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_10",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9104,
+            "LocationName": "Receptionist Desk 5",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_11",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9105,
+            "LocationName": "Nurse Lounge",
+            "ParentTierId": 9032,
+            "TierLevel": 5,
+            "SensorId": "1302701570_12",
+            "CollectorId": "1302701570",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9106,
+            "LocationName": "Room 601",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_1",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9107,
+            "LocationName": "Room 602",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_2",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9108,
+            "LocationName": "Room 603",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_3",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9109,
+            "LocationName": "Room 604",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_4",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9110,
+            "LocationName": "Room 605",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_5",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9111,
+            "LocationName": "Room 606",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_6",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9112,
+            "LocationName": "Room 607",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_7",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9113,
+            "LocationName": "Room 608",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_8",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9114,
+            "LocationName": "Room 609",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_9",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9115,
+            "LocationName": "Room 610",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_10",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9116,
+            "LocationName": "Waiting Area A",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_11",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9117,
+            "LocationName": "Waiting Area B",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "1302701571_12",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9118,
+            "LocationName": "Lab 612",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (989) 731-2101 ext: 612"
+        },
+        {
+            "LocationId": 9119,
+            "LocationName": "Lab 613",
+            "ParentTierId": 9033,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (989) 731-2101 ext: 613"
+        },
+        {
+            "LocationId": 9120,
+            "LocationName": "Room 101",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9121,
+            "LocationName": "Room 102",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9122,
+            "LocationName": "Room 103",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9123,
+            "LocationName": "Room 104",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9124,
+            "LocationName": "Room 105",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9125,
+            "LocationName": "Room 106",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9126,
+            "LocationName": "Room 107",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9127,
+            "LocationName": "Room 108",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9128,
+            "LocationName": "Room 109",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9129,
+            "LocationName": "Room 110",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9130,
+            "LocationName": "Break Room",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "1302701580_11",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9131,
+            "LocationName": "Receptionist Desk",
+            "ParentTierId": 9034,
+            "TierLevel": 5,
+            "SensorId": "1302701580_12",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9132,
+            "LocationName": "Lab 1",
+            "ParentTierId": 9000,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9310,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9050,
+            "TierLevel": 6,
+            "SensorId": "1302701567_1",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9311,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9050,
+            "TierLevel": 6,
+            "SensorId": "1302701567_2",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9312,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9051,
+            "TierLevel": 6,
+            "SensorId": "1302701567_3",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9313,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9051,
+            "TierLevel": 6,
+            "SensorId": "1302701567_4",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9314,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9052,
+            "TierLevel": 6,
+            "SensorId": "1302701567_5",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9315,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9052,
+            "TierLevel": 6,
+            "SensorId": "1302701567_6",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9316,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9053,
+            "TierLevel": 6,
+            "SensorId": "1302701567_7",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9317,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9053,
+            "TierLevel": 6,
+            "SensorId": "1302701567_8",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9318,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9054,
+            "TierLevel": 6,
+            "SensorId": "1302701567_9",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9319,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9054,
+            "TierLevel": 6,
+            "SensorId": "1302701567_10",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9320,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9055,
+            "TierLevel": 6,
+            "SensorId": "1302701567_11",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9321,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9055,
+            "TierLevel": 6,
+            "SensorId": "1302701567_12",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },  
+        {
+            "LocationId": 9322,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9056,
+            "TierLevel": 6,
+            "SensorId": "1302701567_13",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9323,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9056,
+            "TierLevel": 6,
+            "SensorId": "1302701567_14",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },  
+        {
+            "LocationId": 9324,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9057,
+            "TierLevel": 6,
+            "SensorId": "1302701567_15",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9325,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9057,
+            "TierLevel": 6,
+            "SensorId": "1302701567_16",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },  
+        {
+            "LocationId": 9326,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9058,
+            "TierLevel": 6,
+            "SensorId": "1302701567_17",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9327,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9058,
+            "TierLevel": 6,
+            "SensorId": "1302701567_18",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        }, 
+        {
+            "LocationId": 9328,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9059,
+            "TierLevel": 6,
+            "SensorId": "1302701567_19",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9329,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9059,
+            "TierLevel": 6,
+            "SensorId": "1302701567_20",
+            "CollectorId": "1302701567",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        }, 
+        {
+            "LocationId": 9330,
+            "LocationName": "Chair 1",
+            "ParentTierId": 9118,
+            "TierLevel": 6,
+            "SensorId": "1302701571_13",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        }, 
+        {
+            "LocationId": 9331,
+            "LocationName": "Chair 2",
+            "ParentTierId": 9118,
+            "TierLevel": 6,
+            "SensorId": "1302701571_14",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        }, 
+        {
+            "LocationId": 9332,
+            "LocationName": "Chair 3",
+            "ParentTierId": 9118,
+            "TierLevel": 6,
+            "SensorId": "1302701571_15",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9333,
+            "LocationName": "Chair 1",
+            "ParentTierId": 9119,
+            "TierLevel": 6,
+            "SensorId": "1302701571_16",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9334,
+            "LocationName": "Chair 2",
+            "ParentTierId": 9119,
+            "TierLevel": 6,
+            "SensorId": "1302701571_17",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9335,
+            "LocationName": "Chair 3",
+            "ParentTierId": 9119,
+            "TierLevel": 6,
+            "SensorId": "1302701571_18",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9336,
+            "LocationName": "Chair 4",
+            "ParentTierId": 9119,
+            "TierLevel": 6,
+            "SensorId": "1302701571_19",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9337,
+            "LocationName": "Chair 5",
+            "ParentTierId": 9119,
+            "TierLevel": 6,
+            "SensorId": "1302701571_20",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9338,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9119,
+            "TierLevel": 6,
+            "SensorId": "1302701571_21",
+            "CollectorId": "1302701571",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9339,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9120,
+            "TierLevel": 6,
+            "SensorId": "1302701580_13",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9340,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9120,
+            "TierLevel": 6,
+            "SensorId": "1302701580_14",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9341,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9121,
+            "TierLevel": 6,
+            "SensorId": "1302701580_15",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9342,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9121,
+            "TierLevel": 6,
+            "SensorId": "1302701580_16",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9343,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9122,
+            "TierLevel": 6,
+            "SensorId": "1302701580_17",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9344,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9122,
+            "TierLevel": 6,
+            "SensorId": "1302701580_18",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9345,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9123,
+            "TierLevel": 6,
+            "SensorId": "1302701580_19",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9346,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9123,
+            "TierLevel": 6,
+            "SensorId": "1302701580_20",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9347,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9124,
+            "TierLevel": 6,
+            "SensorId": "1302701580_21",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9348,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9124,
+            "TierLevel": 6,
+            "SensorId": "1302701580_22",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9349,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9125,
+            "TierLevel": 6,
+            "SensorId": "1302701584_2",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9350,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9125,
+            "TierLevel": 6,
+            "SensorId": "1302701584_3",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9351,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9126,
+            "TierLevel": 6,
+            "SensorId": "1302701584_4",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9352,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9126,
+            "TierLevel": 6,
+            "SensorId": "1302701584_5",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9353,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9127,
+            "TierLevel": 6,
+            "SensorId": "1302701584_6",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9354,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9127,
+            "TierLevel": 6,
+            "SensorId": "1302701584_7",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9355,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9128,
+            "TierLevel": 6,
+            "SensorId": "1302701584_8",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9356,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9128,
+            "TierLevel": 6,
+            "SensorId": "1302701584_9",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9357,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9129,
+            "TierLevel": 6,
+            "SensorId": "1302701584_10",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9358,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9129,
+            "TierLevel": 6,
+            "SensorId": "1302701584_11",
+            "CollectorId": "1302701584",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9359,
+            "LocationName": "Chair 1",
+            "ParentTierId": 9132,
+            "TierLevel": 6,
+            "SensorId": "1302701580_12",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9360,
+            "LocationName": "Chair 2",
+            "ParentTierId": 9132,
+            "TierLevel": 6,
+            "SensorId": "1302701580_13",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9361,
+            "LocationName": "Chair 3",
+            "ParentTierId": 9132,
+            "TierLevel": 6,
+            "SensorId": "1302701580_14",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9362,
+            "LocationName": "Chair 4",
+            "ParentTierId": 9132,
+            "TierLevel": 6,
+            "SensorId": "1302701580_15",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9363,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9145,
+            "TierLevel": 6,
+            "SensorId": "1302701580_1",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9364,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9145,
+            "TierLevel": 6,
+            "SensorId": "1302701580_2",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9365,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9146,
+            "TierLevel": 6,
+            "SensorId": "1302701580_3",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9366,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9146,
+            "TierLevel": 6,
+            "SensorId": "1302701580_4",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9367,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9147,
+            "TierLevel": 6,
+            "SensorId": "1302701580_5",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9368,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9147,
+            "TierLevel": 6,
+            "SensorId": "1302701580_6",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9369,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9148,
+            "TierLevel": 6,
+            "SensorId": "1302701580_7",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9370,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9148,
+            "TierLevel": 6,
+            "SensorId": "1302701580_8",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9371,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9149,
+            "TierLevel": 6,
+            "SensorId": "1302701580_9",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9372,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9149,
+            "TierLevel": 6,
+            "SensorId": "1302701580_10",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9373,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9150,
+            "TierLevel": 6,
+            "SensorId": "1302701580_11",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9374,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9150,
+            "TierLevel": 6,
+            "SensorId": "1302701580_12",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9375,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9151,
+            "TierLevel": 6,
+            "SensorId": "1302701580_13",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9376,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9151,
+            "TierLevel": 6,
+            "SensorId": "1302701580_14",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9377,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9152,
+            "TierLevel": 6,
+            "SensorId": "1302701580_15",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9378,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9152,
+            "TierLevel": 6,
+            "SensorId": "1302701580_16",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9379,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9153,
+            "TierLevel": 6,
+            "SensorId": "1302701580_17",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9380,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9153,
+            "TierLevel": 6,
+            "SensorId": "1302701580_18",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9381,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9154,
+            "TierLevel": 6,
+            "SensorId": "1302701580_19",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9382,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9154,
+            "TierLevel": 6,
+            "SensorId": "1302701580_20",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9383,
+            "LocationName": "Chair 1",
+            "ParentTierId": 9207,
+            "TierLevel": 6,
+            "SensorId": "1302701585_11",
+            "CollectorId": "1302701585",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9384,
+            "LocationName": "Chair 2",
+            "ParentTierId": 9207,
+            "TierLevel": 6,
+            "SensorId": "1302701585_12",
+            "CollectorId": "1302701585",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9385,
+            "LocationName": "Chair 3",
+            "ParentTierId": 9207,
+            "TierLevel": 6,
+            "SensorId": "1302701585_13",
+            "CollectorId": "1302701585",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9386,
+            "LocationName": "Chair 4",
+            "ParentTierId": 9207,
+            "TierLevel": 6,
+            "SensorId": "1302701585_14",
+            "CollectorId": "1302701585",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9387,
+            "LocationName": "Chair 1",
+            "ParentTierId": 9245,
+            "TierLevel": 6,
+            "SensorId": "1302701552_12",
+            "CollectorId": "1302701552",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9388,
+            "LocationName": "Chair 2",
+            "ParentTierId": 9245,
+            "TierLevel": 6,
+            "SensorId": "1302701552_13",
+            "CollectorId": "1302701552",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9389,
+            "LocationName": "Chair 3",
+            "ParentTierId": 9245,
+            "TierLevel": 6,
+            "SensorId": "1302701552_14",
+            "CollectorId": "1302701552",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9390,
+            "LocationName": "Chair 4",
+            "ParentTierId": 9245,
+            "TierLevel": 6,
+            "SensorId": "1302701552_15",
+            "CollectorId": "1302701552",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9391,
+            "LocationName": "Chair 5",
+            "ParentTierId": 9245,
+            "TierLevel": 6,
+            "SensorId": "1302701552_16",
+            "CollectorId": "1302701552",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9392,
+            "LocationName": "Chair 6",
+            "ParentTierId": 9245,
+            "TierLevel": 6,
+            "SensorId": "1302701552_17",
+            "CollectorId": "1302701552",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9393,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9258,
+            "TierLevel": 6,
+            "SensorId": "5102701820_1",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9394,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9258,
+            "TierLevel": 6,
+            "SensorId": "5102701820_2",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9395,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9259,
+            "TierLevel": 6,
+            "SensorId": "5102701820_3",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9396,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9259,
+            "TierLevel": 6,
+            "SensorId": "5102701820_4",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9397,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9260,
+            "TierLevel": 6,
+            "SensorId": "5102701820_5",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9398,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9260,
+            "TierLevel": 6,
+            "SensorId": "5102701820_6",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9399,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9261,
+            "TierLevel": 6,
+            "SensorId": "5102701820_7",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9400,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9261,
+            "TierLevel": 6,
+            "SensorId": "5102701820_8",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9401,
+            "LocationName": "Chair 1",
+            "ParentTierId": 9261,
+            "TierLevel": 6,
+            "SensorId": "5102701820_9",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9402,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9262,
+            "TierLevel": 6,
+            "SensorId": "5102701820_10",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9403,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9262,
+            "TierLevel": 6,
+            "SensorId": "5102701820_11",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9404,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9263,
+            "TierLevel": 6,
+            "SensorId": "5102701820_12",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9405,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9263,
+            "TierLevel": 6,
+            "SensorId": "5102701820_13",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9406,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9264,
+            "TierLevel": 6,
+            "SensorId": "5102701820_14",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9407,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9264,
+            "TierLevel": 6,
+            "SensorId": "5102701820_15",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9408,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9265,
+            "TierLevel": 6,
+            "SensorId": "5102701820_16",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9409,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9265,
+            "TierLevel": 6,
+            "SensorId": "5102701820_17",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9410,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9266,
+            "TierLevel": 6,
+            "SensorId": "5102701820_18",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9411,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9266,
+            "TierLevel": 6,
+            "SensorId": "5102701820_19",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9412,
+            "LocationName": "Bed 1",
+            "ParentTierId": 9267,
+            "TierLevel": 6,
+            "SensorId": "5102701820_20",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9413,
+            "LocationName": "Bed 2",
+            "ParentTierId": 9267,
+            "TierLevel": 6,
+            "SensorId": "5102701820_21",
+            "CollectorId": "5102701820",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+
+
+
+        {
+            "LocationId": 9414,
+            "LocationName": "Lab 113",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": "Phone: (989) 731-2101 ext: 613"
+        },
+        {
+            "LocationId": 9425,
+            "LocationName": "Break Room",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "1302701580_11",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9426,
+            "LocationName": "Receptionist Desk",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "1302701580_12",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9415,
+            "LocationName": "Room 101",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9416,
+            "LocationName": "Room 102",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9417,
+            "LocationName": "Room 103",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9418,
+            "LocationName": "Room 104",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9419,
+            "LocationName": "Room 105",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9420,
+            "LocationName": "Room 106",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9421,
+            "LocationName": "Room 107",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9422,
+            "LocationName": "Room 108",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9423,
+            "LocationName": "Room 109",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9424,
+            "LocationName": "Room 110",
+            "ParentTierId": 9036,
+            "TierLevel": 5,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9425,
+            "LocationName": "Break Room",
+            "ParentTierId": 9037,
+            "TierLevel": 5,
+            "SensorId": "1302534522_0",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9426,
+            "LocationName": "Receptionist Desk",
+            "ParentTierId": 9037,
+            "TierLevel": 5,
+            "SensorId": "1302534522_1",
+            "CollectorId": "1302701580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9427,
+            "LocationName": "Room 201",
+            "ParentTierId": 9037,
+            "TierLevel": 5,
+            "SensorId": "1302534522_2",
+            "CollectorId": "1302534522",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9428,
+            "LocationName": "Room 202",
+            "ParentTierId": 9037,
+            "TierLevel": 5,
+            "SensorId": "1302534522_3",
+            "CollectorId": "1302534522",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9429,
+            "LocationName": "Room 203",
+            "ParentTierId": 9037,
+            "TierLevel": 5,
+            "SensorId": "1302534522_4",
+            "CollectorId": "1302534522",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9430,
+            "LocationName": "Room 204",
+            "ParentTierId": 9037,
+            "TierLevel": 5,
+            "SensorId": "1302534522_5",
+            "CollectorId": "1302534522",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9431,
+            "LocationName": "Room 205",
+            "ParentTierId": 9037,
+            "TierLevel": 5,
+            "SensorId": "1302534522_6",
+            "CollectorId": "1302534522",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9432,
+            "LocationName": "Receptionist Desk",
+            "ParentTierId": 9038,
+            "TierLevel": 5,
+            "SensorId": "1302534580_0",
+            "CollectorId": "1302534580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9433,
+            "LocationName": "Room 301",
+            "ParentTierId": 9038,
+            "TierLevel": 5,
+            "SensorId": "1302534580_1",
+            "CollectorId": "1302534580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9434,
+            "LocationName": "Room 302",
+            "ParentTierId": 9038,
+            "TierLevel": 5,
+            "SensorId": "1302534580_2",
+            "CollectorId": "1302534580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9435,
+            "LocationName": "Room 303",
+            "ParentTierId": 9038,
+            "TierLevel": 5,
+            "SensorId": "1302534580_3",
+            "CollectorId": "1302534580",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+
+        {
+            "LocationId": 9436,
+            "LocationName": "Receptionist Desk A",
+            "ParentTierId": 9039,
+            "TierLevel": 5,
+            "SensorId": "1302534561_0",
+            "CollectorId": "1302534561",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9440,
+            "LocationName": "Receptionist Desk B",
+            "ParentTierId": 9039,
+            "TierLevel": 5,
+            "SensorId": "1302534561_1",
+            "CollectorId": "1302534561",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9437,
+            "LocationName": "Room 401",
+            "ParentTierId": 9039,
+            "TierLevel": 5,
+            "SensorId": "1302534561_2",
+            "CollectorId": "1302534561",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9438,
+            "LocationName": "Room 402",
+            "ParentTierId": 9039,
+            "TierLevel": 5,
+            "SensorId": "1302534561_3",
+            "CollectorId": "1302534561",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9439,
+            "LocationName": "Room 403",
+            "ParentTierId": 9039,
+            "TierLevel": 5,
+            "SensorId": "1302534561_4",
+            "CollectorId": "1302534561",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9438,
+            "LocationName": "Room 404",
+            "ParentTierId": 9039,
+            "TierLevel": 5,
+            "SensorId": "1302534561_5",
+            "CollectorId": "1302534561",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9439,
+            "LocationName": "Room 405",
+            "ParentTierId": 9039,
+            "TierLevel": 5,
+            "SensorId": "1302534561_6",
+            "CollectorId": "1302534561",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+
+        {
+            "LocationId": 9440,
+            "LocationName": "Staff Lounge",
+            "ParentTierId": 9040,
+            "TierLevel": 5,
+            "SensorId": "1302534562_0",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9441,
+            "LocationName": "Room 501",
+            "ParentTierId": 9040,
+            "TierLevel": 5,
+            "SensorId": "1302534562_1",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9442,
+            "LocationName": "Room 502",
+            "ParentTierId": 9040,
+            "TierLevel": 5,
+            "SensorId": "1302534562_2",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9443,
+            "LocationName": "Room 503",
+            "ParentTierId": 9040,
+            "TierLevel": 5,
+            "SensorId": "1302534562_3",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9444,
+            "LocationName": "Room 504",
+            "ParentTierId": 9040,
+            "TierLevel": 5,
+            "SensorId": "1302534562_4",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9445,
+            "LocationName": "Room 505",
+            "ParentTierId": 9040,
+            "TierLevel": 5,
+            "SensorId": "1302534562_5",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9446,
+            "LocationName": "Room 506",
+            "ParentTierId": 9040,
+            "TierLevel": 5,
+            "SensorId": "1302534562_6",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9447,
+            "LocationName": "Room 507",
+            "ParentTierId": 9040,
+            "TierLevel": 5,
+            "SensorId": "1302534562_7",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9448,
+            "LocationName": "Room 508",
+            "ParentTierId": 9040,
+            "TierLevel": 5,
+            "SensorId": "1302534562_8",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9449,
+            "LocationName": "Room 601",
+            "ParentTierId": 9041,
+            "TierLevel": 5,
+            "SensorId": "1302534562_9",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9450,
+            "LocationName": "Room 602",
+            "ParentTierId": 9041,
+            "TierLevel": 5,
+            "SensorId": "1302534562_10",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9451,
+            "LocationName": "Room 603",
+            "ParentTierId": 9041,
+            "TierLevel": 5,
+            "SensorId": "1302534562_11",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9452,
+            "LocationName": "Room 604",
+            "ParentTierId": 9041,
+            "TierLevel": 5,
+            "SensorId": "1302534562_12",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9453,
+            "LocationName": "Room 605",
+            "ParentTierId": 9041,
+            "TierLevel": 5,
+            "SensorId": "1302534562_13",
+            "CollectorId": "1302534562",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9454,
+            "LocationName": "Chair 1",
+            "ParentTierId":  9414,
+            "TierLevel": 6,
+            "SensorId": "3102701333_1",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9455,
+            "LocationName": "Chair 2",
+            "ParentTierId":  9414,
+            "TierLevel": 6,
+            "SensorId": "3102701333_2",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9456,
+            "LocationName": "Chair 3",
+            "ParentTierId":  9414,
+            "TierLevel": 6,
+            "SensorId": "3102701333_3",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9457,
+            "LocationName": "Chair 4",
+            "ParentTierId":  9414,
+            "TierLevel": 6,
+            "SensorId": "3102701333_4",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": "9415"
+        },
+        {
+            "LocationId": 9458,
+            "LocationName": "Bed 101-A",
+            "ParentTierId":  9415,
+            "TierLevel": 6,
+            "SensorId": "3102701334_1",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": "9415"
+        },
+        {
+            "LocationId": 9459,
+            "LocationName": "Bed 101-B",
+            "ParentTierId":  9415,
+            "TierLevel": 6,
+            "SensorId": "3102701334_2",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": "9415"
+        },
+        {
+            "LocationId": 9460,
+            "LocationName": "Chair 101",
+            "ParentTierId":  9415,
+            "TierLevel": 6,
+            "SensorId": "3102701334_3",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9458,
+            "LocationName": "Bed 102-A",
+            "ParentTierId":  9416,
+            "TierLevel": 6,
+            "SensorId": "3102701334_4",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9459,
+            "LocationName": "Bed 102-B",
+            "ParentTierId":  9416,
+            "TierLevel": 6,
+            "SensorId": "3102701334_5",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9460,
+            "LocationName": "Bed 103",
+            "ParentTierId":  9417,
+            "TierLevel": 6,
+            "SensorId": "3102701334_4",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9461,
+            "LocationName": "Bed 104",
+            "ParentTierId":  9418,
+            "TierLevel": 6,
+            "SensorId": "3102701334_5",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9462,
+            "LocationName": "Chair 104-A",
+            "ParentTierId":  9418,
+            "TierLevel": 6,
+            "SensorId": "3102701334_6",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9463,
+            "LocationName": "Chair 104-B",
+            "ParentTierId":  9418,
+            "TierLevel": 6,
+            "SensorId": "3102701334_7",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9464,
+            "LocationName": "Bed 105",
+            "ParentTierId":  9419,
+            "TierLevel": 6,
+            "SensorId": "3102701334_8",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9464,
+            "LocationName": "Bed 106-A",
+            "ParentTierId":  9420,
+            "TierLevel": 6,
+            "SensorId": "3102701334_9",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9464,
+            "LocationName": "Bed 106-B",
+            "ParentTierId":  9420,
+            "TierLevel": 6,
+            "SensorId": "3102701334_10",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9465,
+            "LocationName": "Bed 107-A",
+            "ParentTierId":  9421,
+            "TierLevel": 6,
+            "SensorId": "3102701334_11",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9466,
+            "LocationName": "Bed 107-B",
+            "ParentTierId":  9421,
+            "TierLevel": 6,
+            "SensorId": "3102701334_12",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9465,
+            "LocationName": "Bed 108-A",
+            "ParentTierId":  9422,
+            "TierLevel": 6,
+            "SensorId": "3102701334_11",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9466,
+            "LocationName": "Chair 108",
+            "ParentTierId":  9422,
+            "TierLevel": 6,
+            "SensorId": "3102701334_12",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9467,
+            "LocationName": "Bed 109",
+            "ParentTierId":  9423,
+            "TierLevel": 6,
+            "SensorId": "3102701334_13",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9468,
+            "LocationName": "Chair 109",
+            "ParentTierId":  9423,
+            "TierLevel": 6,
+            "SensorId": "3102701334_14",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9469,
+            "LocationName": "Bed 110-A",
+            "ParentTierId":  9424,
+            "TierLevel": 6,
+            "SensorId": "3102701334_15",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9470,
+            "LocationName": "Bed 110-B",
+            "ParentTierId":  9424,
+            "TierLevel": 6,
+            "SensorId": "3102701334_16",
+            "CollectorId": "3102701333",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9471,
+            "LocationName": "Room 101",
+            "ParentTierId": 9043,
+            "TierLevel": 6,
+            "SensorId": "3102701311_1",
+            "CollectorId": "3102701311",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9472,
+            "LocationName": "Receptionist Desk",
+            "ParentTierId": 9043,
+            "TierLevel": 6,
+            "SensorId": "3102701311_2",
+            "CollectorId": "3102701311",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9473,
+            "LocationName": "Waiting Room",
+            "ParentTierId": 9043,
+            "TierLevel": 6,
+            "SensorId": "3102701311_2",
+            "CollectorId": "3102701311",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9474,
+            "LocationName": "Room 102",
+            "ParentTierId": 9043,
+            "TierLevel": 6,
+            "SensorId": "3102701311_2",
+            "CollectorId": "3102701311",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9475,
+            "LocationName": "Room 103",
+            "ParentTierId": 9043,
+            "TierLevel": 6,
+            "SensorId": "3102701311_1",
+            "CollectorId": "3102701311",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9476,
+            "LocationName": "Room 104",
+            "ParentTierId": 9044,
+            "TierLevel": 6,
+            "SensorId": "3102701311_2",
+            "CollectorId": "3102701311",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9477,
+            "LocationName": "Hall by Room 104",
+            "ParentTierId": 9042,
+            "TierLevel": 6,
+            "SensorId": "3102701311_3",
+            "CollectorId": "3102701311",
+            "SensorType": "V-Direct",
+            "ExtendedData": ""
+        },
+        {
+            "LocationId": 9478,
+            "LocationName": "Floor 1",
+            "ParentTierId": 9026,
+            "TierLevel": 6,
+            "SensorId": "",
+            "CollectorId": "",
+            "SensorType": "",
+            "ExtendedData": ""
+        }
+
+    ]

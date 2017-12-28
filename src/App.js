@@ -41,21 +41,21 @@ class App extends Component {
 
     componentWillMount() {
         // fetch data from Operational API
-        fetch('http://versus-dev-ops-api.azurewebsites.net/api/v0/locations')
+        fetch('http://versus-dev-ops-api.azurewebsites.net/api/v0/locationhierarchy')
             .then(response => response.json())
-            .then(response => this.setState({ apiDataList: response }))
+            // callback 
+            .then(response => this.setState({ apiDataList: response }, state => console.log(this.state.apiDataList)))
 
-            .catch(err => {
-                console.log("Fetch error: " + err);
-            });
 
-        // fetch data from local JSON
-        this.setState({ fakeJSONDataList: this.props.fakeData })
-        // filter for column 1 data, show at launch time
-        var filteredIDNTier = _.filter(this.props.fakeData, { 'TierLevel': 1 });
-        ////var IDNList = _.find(filteredIDNList, [ 'LocationId', 9000 ]);
-        var IDNList = _.filter(filteredIDNTier, ({ LocationId }) => LocationId > 9000)
-        this.setState({ columnTier1: IDNList })
+                .catch(err => {
+                    console.log("Fetch error: " + err);
+                });
+            
+            // filter for column 1 data
+            var filteredIDNTier = _.filter(this.state.apiDataList, { 'level': 1 });
+            console.log('filtered IDN Tier: ', filteredIDNTier)
+            // populate column 1 with data at launch
+            this.setState({ columnTier1: filteredIDNTier })
     }
 
 
@@ -138,19 +138,36 @@ class App extends Component {
 
     render() {
 
+        var app = {
+            textAlign: "center",
+            backgroundColor: "#c1bdba"
+        }
+
+        var tile = {
+            backgroundColor: "white",
+            margin: "4em auto"
+        }
+
         var tileHeader = {
             textAlign: "center",
             textTransform: "uppercase",
-            marginTop: 20,
-            marginBottom: 85,
+            marginTop: "2em",
+            marginBottom: "3em",
             color: "#000",
-            paddingTop: 10
+            textAlign: "center"
+        }
+
+        var selectedTitle = {
+            textAlign: "left",
+            margin: "0em 0em 1em 1em",
+            color: "#005a9e"
         }
 
         var selectedLabel = {
             fontSize: 14,
             paddingBottom: 0,
-            marginBottom: 0
+            margin: "0em 0em .75em 1em",
+            textAlign: "left"
         }
 
         var selectedResults = {
@@ -160,66 +177,78 @@ class App extends Component {
             marginBottom: 0
         }
 
-        var logo = {
-            marginLeft: "-20px"
+        var sensorTitle = {
+            textAlign: "left",
+            margin: "0em 0em 1em .7em",
+            color: "#005a9e"
+        }
+
+        var dataLists = {
+            margin: "3em 0em 0em 0em"
         }
 
         return (
-            <div>
-                <div id="app" className="container-fluid">
-
-                    <h3 style={tileHeader}>Location Explorer</h3>
-                    <div className="row">
-                        <div className="col-sm-3">
-                            <h6>Selected Locations </h6>
-                            <div className="row">
-                                <div className="col-sm-3">
-                                    <p style={selectedLabel}> Idn: </p>
-                                    <p style={selectedLabel}> Campus: </p>
-                                    <p style={selectedLabel}> Building: </p>
-                                    <p style={selectedLabel}> Floor: </p>
-                                    <p style={selectedLabel}> Room: </p>
-                                    <p style={selectedLabel}> Care: </p>
+            <div className="ms-Grid">
+                <div className="ms-Grid-row">
+                    <div style={app} className="ms-Grid-col ms-sm12">
+                        <div className="ms-Grid-col ms-sm1" />
+                        <div style={tile} id="tile" className="ms-Grid-col ms-sm10">
+                                <div className="ms-Grid-row">
+                                    <div className="ms-Grid-col ms-sm12">
+                                        <h2 className="ms-fontSize-xl" style={tileHeader}>Location Explorer</h2>
+                                    </div>
                                 </div>
-                                <div className="col-sm-9">
-                                    <p style={selectedResults}> {this.state.clickedResultsTier1}</p>
-                                    <p style={selectedResults}> {this.state.clickedResultsTier2}</p>
-                                    <p style={selectedResults}> {this.state.clickedResultsTier3}</p>
-                                    <p style={selectedResults}> {this.state.clickedResultsTier4}</p>
-                                    <p style={selectedResults}> {this.state.clickedResultsTier5}</p>
-                                    <p style={selectedResults}> {this.state.clickedResultsTier6}</p>
+                                <div className="ms-Grid-row">
+                                        <div className="ms-Grid-col ms-lg4">
+                                            <p style={selectedTitle}> Selected Locations </p>
+                                            <p style={selectedLabel}> Idn: </p>
+                                            <p style={selectedLabel}> Campus: </p>
+                                            <p style={selectedLabel}> Building: </p>
+                                            <p style={selectedLabel}> Floor: </p>
+                                            <p style={selectedLabel}> Room: </p>
+                                            <p style={selectedLabel}> Care: </p>
+                                        </div>
+                                        <div className="ms-Grid-col ms-lg3">
+                                            <p style={sensorTitle}>Sensor Data</p>
+                                            <div className="ms-Grid-row">
+                                                <div className="ms-Grid-col ms-lg4">
+                                                    <p style={selectedLabel}>Sensor Id:    </p>
+                                                    <p style={selectedLabel}>Collector Id: </p>
+                                                    <p style={selectedLabel}>Sensor Type:  </p>
+                                                </div>
+                                                <div className="ms-Grid-col ms-lg7">
+                                                    <p style={selectedResults}>{this.state.sensorId}    </p>
+                                                    <p style={selectedResults}>{this.state.collectorId} </p>
+                                                    <p style={selectedResults}>{this.state.sensorType}  </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="ms-Grid-col ms-lg5">
+                                            <p style={sensorTitle}>Notes</p>
+                                            <p style={selectedResults}>{this.state.extendedData}</p>
+                                        </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <h6>Sensor Data </h6>
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <p style={selectedLabel}>Sensor Id:    </p>
-                                    <p style={selectedLabel}>Collector Id: </p>
-                                    <p style={selectedLabel}>Sensor Type:  </p>
+                                <div className="ms-Grid-row">
+                                    <div className="ms-Grid-col ms-lg2">
+                                        <p style={selectedResults}> {this.state.clickedResultsTier1}</p>
+                                        <p style={selectedResults}> {this.state.clickedResultsTier2}</p>
+                                        <p style={selectedResults}> {this.state.clickedResultsTier3}</p>
+                                        <p style={selectedResults}> {this.state.clickedResultsTier4}</p>
+                                        <p style={selectedResults}> {this.state.clickedResultsTier5}</p>
+                                        <p style={selectedResults}> {this.state.clickedResultsTier6}</p>
+                                    </div>
+                                </div>                             
+                                <div className="ms-Grid-row" style={dataLists}>
+                                        <LocationList key="1" title="IDN"       list={this.state.columnTier1} onListClick={this.handleClick} />
+                                        <LocationList key="2" title="Campus"    list={this.state.columnTier2} onListClick={this.handleClick} />
+                                        <LocationList key="3" title="Building"  list={this.state.columnTier3} onListClick={this.handleClick} />
+                                        <LocationList key="4" title="Floor"     list={this.state.columnTier4} onListClick={this.handleClick} />
+                                        <LocationList key="5" title="Room"      list={this.state.columnTier5} onListClick={this.handleClick} />
+                                        <LocationList key="6" title="Care"      list={this.state.columnTier6} onListClick={this.handleClick} />
                                 </div>
-                                <div className="col-sm-7">
-                                    <p style={selectedResults}>{this.state.sensorId}    </p>
-                                    <p style={selectedResults}>{this.state.collectorId} </p>
-                                    <p style={selectedResults}>{this.state.sensorType}  </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <h6>Notes </h6>
-                            <p style={selectedResults}>{this.state.extendedData}</p>
-                        </div>
-                    </div>
-                    <br /><br /><br />
-                    <div className="row">
-                        <LocationList key="1" list={this.state.columnTier1} onListClick={this.handleClick} />
-                        <LocationList key="2" list={this.state.columnTier2} onListClick={this.handleClick} />
-                        <LocationList key="3" list={this.state.columnTier3} onListClick={this.handleClick} />
-                        <LocationList key="4" list={this.state.columnTier4} onListClick={this.handleClick} />
-                        <LocationList key="5" list={this.state.columnTier5} onListClick={this.handleClick} />
-                        <LocationList key="6" list={this.state.columnTier6} onListClick={this.handleClick} />
-                    </div>
+                        </div>                       
+                        <div className="ms-Grid-col ms-sm1" />  
+                     </div>
                 </div>
             </div>
         );

@@ -35,7 +35,6 @@ class LocationList extends Component {
         }
         var titleStyle = {
             padding: 15,
-            fontFamily: 'Open Sans',
             fontSize: 14
         }
 
@@ -50,7 +49,7 @@ class LocationList extends Component {
         };
 
         return (
-            <div style={divStyle} className="col-sm-2">
+            <div style={divStyle} className="ms-Grid-col ms-lg2">
                 <p style={titleStyle}>{this.state.title}</p>
                 <div style={listStyle} value={this.props.tier}>
                     {this.props.list.length ? this.props.list.map(location => // Call Location Component unless list is empty - should be props, update state in parent that will pass down new props value 
