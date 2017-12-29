@@ -22,7 +22,6 @@ class Location extends Component {
         }
 
         let location = this.props.location;
-        console.log('location: ', this.props.location)
 
         return(
             <div 
@@ -32,7 +31,6 @@ class Location extends Component {
                 value={location.locationID} 
                 level={location.level}
                 onClick={this.onClick}
-                className={this.props.highlightClass}
             >
                {/*} {location.LocationName} */}
               { location.locationName}

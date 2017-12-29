@@ -48,6 +48,8 @@ class LocationList extends Component {
             padding: "0px 3px"
         };
 
+        let location = this.props.location;
+
         return (
             <div style={divStyle} className="ms-Grid-col ms-lg2">
                 <p style={titleStyle}>{this.state.title}</p>
