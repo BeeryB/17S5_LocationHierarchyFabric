@@ -41,55 +41,32 @@ class App extends Component {
             })
 
             // add all the data to apiDataList state
-            .then(response => this.setState({ apiDataList: response }, this.filterAPIData))
+            .then(response => this.setState({ apiDataList: response }, this.populateColumn1))
+            
     }
 
-    filterAPIData() {
-        // flatten array
-        var flattened = _.flatten(this.state.apiDataList)
-        console.log('flattened: ', flattened)
-       
+    populateColumn1() {
         // filter for column 1 data
         var filteredIDNTier = _.filter(this.state.apiDataList, { 'level': 1 });
-        console.log('filtered IDN Tier: ', filteredIDNTier);
-       
+        
         // populate column 1 with data at launch
-        this.setState({ columnTier1: filteredIDNTier}, state => console.log('Column 1, IDN data: ', this.state.columnTier1));
+        this.setState({ columnTier1: filteredIDNTier});
     }
 
     handleClick(selectedItem) {
-        //clearLists(); 
-        // See value user clicked
-        console.log('You selected: ', selectedItem.locationName)
-
-        // filter master list of locations for children locations of clicked
-        console.log('level to use for filtering: ', selectedItem.level);
-        console.log('List to filter on: ', this.state.apiDataList);
-        console.log('location id: ', selectedItem.locationID);
-       // var FilteredListFromSelection = _.filter(this.state.apiDataList, { 'level': selectedItem.level + 1});
-        var filteredListFromSelection = _.filter(this.state.apiDataList, { 'parentLocationID': selectedItem.locationID});
-
-        // update child tier list     
-        this.setState({ ["columnTier" + (selectedItem.level + 1)]: filteredListFromSelection })
-        console.log('Filter results: ', this.filteredListFromSelection)
-        //this.setState({ ["clickedResultsTier" + (selectedItem.level)]: selectedItem.locationName })
-        //this.setState({ ["tierStatus" + (selectedItem.level)]: true })
-
-
-        // filter master list of locations for children locations of clicked
-        // var FilteredListFromSelection = _.filter(this.state.apiDataList, { 'level': selectedItem.level + 1, 'ParentTierId': selectedItem.LocationID }, state => console.log('API Data: ', this.state.apiDataList));
-        //var FilteredListFromSelection = _.filter(this.state.apiDataList, { 'level': selectedItem.level + 1});
-        // update child tier list     
-        //this.setState({ ["columnTier" + (selectedItem.level + 1)]: FilteredListFromSelection })
-        //this.setState({ ["clickedResultsTier" + (selectedItem.level)]: selectedItem.locationName })
-        //this.setState({ ["tierStatus" + (selectedItem.level)]: true })
-    }
-
-    getChildColumnList(selectedItem) {
-        // update child tier list  
-        console.log('get child function')   
-        this.setState({ ["columnTier" + (selectedItem.level + 1)]: this.filteredListFromSelection })
+        // add selected value to UI 
         this.setState({ ["clickedResultsTier" + (selectedItem.level)]: selectedItem.locationName })
+
+        // filter for children of selected
+        var childrenList = selectedItem.children
+        
+        if (selectedItem.children == null) {
+            console.log('Its the end of the line for you')
+        } 
+        else {   
+            // update child column list     
+            this.setState({ ["columnTier" + (selectedItem.level + 1)]: childrenList })   
+        }
     }
 
     // clear out lists based on new click location
