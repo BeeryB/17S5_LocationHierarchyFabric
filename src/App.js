@@ -22,10 +22,7 @@ class App extends Component {
             clickedResultsTier4: "",
             clickedResultsTier5: "",
             clickedResultsTier6: "",
-            extendedData: [],
-            sensorId: "",
-            collectorId: "",
-            sensorType: "",
+            selectedLevel: "",
             clicked: false
         }
         // bind HTML tag to click event that will be handled by function, handleClick()
@@ -53,24 +50,7 @@ class App extends Component {
         this.setState({ columnTier1: filteredIDNTier});
     }
 
-    handleClick(selectedItem) {
-        // add selected value to UI 
-        this.setState({ ["clickedResultsTier" + (selectedItem.level)]: selectedItem.locationName })
-
-        // filter for children of selected
-        var childrenList = selectedItem.children
-        
-        if (selectedItem.children == null) {
-            console.log('Its the end of the line for you')
-        } 
-        else {   
-            // update child column list     
-            this.setState({ ["columnTier" + (selectedItem.level + 1)]: childrenList })   
-        }
-    }
-
-    // clear out lists based on new click location
-    clearLists(selectedItem) {
+    handleClick(selectedItem) { 
 
         if (selectedItem.level === 1) {
             this.setState({
@@ -85,9 +65,7 @@ class App extends Component {
                 clickedResultsTier5: "",
                 clickedResultsTier6: "",
             })
-            console.log('Column 2, Campus data: ', this.state.columnTier2)
         }
-
         if (selectedItem.level === 2) {
             this.setState({
                 columnTier3: [],
@@ -97,11 +75,9 @@ class App extends Component {
                 clickedResultsTier3: "",
                 clickedResultsTier4: "",
                 clickedResultsTier5: "",
-                clickedResultsTier6: ""
+                clickedResultsTier6: "",
             })
-            console.log('Column 3, Building data: ', this.state.columnTier3)
         }
-
         if (selectedItem.level === 3) {
             this.setState({
                 columnTier4: [],
@@ -109,29 +85,41 @@ class App extends Component {
                 columnTier6: [],
                 clickedResultsTier4: "",
                 clickedResultsTier5: "",
-                clickedResultsTier6: ""
+                clickedResultsTier6: "",
             })
-            console.log('Column 4, Floor data: ', this.state.columnTier4)
         }
-
         if (selectedItem.level === 4) {
             this.setState({
                 columnTier5: [],
                 columnTier6: [],
                 clickedResultsTier5: "",
-                clickedResultsTier6: ""
+                clickedResultsTier6: "",
             })
-            console.log('Column 5, Room data: ', this.state.columnTier5)
         }
-
         if (selectedItem.level === 5) {
             this.setState({
                 columnTier6: [],
-                clickedResultsTier6: ""
+                clickedResultsTier6: "",
             })
-            console.log('Column 6, Care data: ', this.state.columnTier6)
         }
-    } 
+        
+        // add selected value to UI 
+        this.setState({ ["clickedResultsTier" + (selectedItem.level)]: selectedItem.locationName })
+
+        // filter for children of selected
+        var childrenList = selectedItem.children
+        
+        // populate child column with list of locations
+        if (selectedItem.children == null) {
+            console.log('Its the end of the line for you')
+        } 
+        else {   
+            // update child column list     
+            this.setState({ ["columnTier" + (selectedItem.level + 1)]: childrenList })   
+        }
+
+        //this.setState({selectedLevel: selectedItem.level}, this.clearLists)
+    }
 
     handleHighlight(selectedItem) {
         // this.setState({highlightList1: false})
@@ -175,21 +163,18 @@ class App extends Component {
             marginTop: 0,
             fontSize: 14,
             paddingBottom: 0,
-            margin: "0em 0em .75em 1em",
+            margin: 0,
+            color: "#007dc3",
             textAlign: "left"
         }
 
         var selectedResults = {
-            color: "#007dc3",
             fontSize: 14,
             paddingBottom: 0,
-            marginBottom: 0
-        }
-
-        var sensorTitle = {
-            textAlign: "left",
-            margin: "0em 0em 1em .7em",
-            color: "#005a9e"
+            marginBottom: 0,
+            marginTop: 10,
+            color: "#007dc3",
+            textAlign: "left"
         }
 
         var dataLists = {
@@ -218,12 +203,12 @@ class App extends Component {
                                             <p style={selectedLabel}> Care: </p>
                                         </div>
                                         <div className="ms-Grid-col ms-lg2">
-                                            <p style={selectedResultsTop}> {this.state.clickedResultsTier1}</p>
-                                            <p style={selectedResults}> {this.state.clickedResultsTier2}</p>
-                                            <p style={selectedResults}> {this.state.clickedResultsTier3}</p>
-                                            <p style={selectedResults}> {this.state.clickedResultsTier4}</p>
-                                            <p style={selectedResults}> {this.state.clickedResultsTier5}</p>
-                                            <p style={selectedResults}> {this.state.clickedResultsTier6}</p>
+                                            <p id="selectedResults" style={selectedResultsTop}> {this.state.clickedResultsTier1}</p>
+                                            <p id="selectedResults" style={selectedResults}> {this.state.clickedResultsTier2}</p>
+                                            <p id="selectedResults" style={selectedResults}> {this.state.clickedResultsTier3}</p>
+                                            <p id="selectedResults" style={selectedResults}> {this.state.clickedResultsTier4}</p>
+                                            <p id="selectedResults" style={selectedResults}> {this.state.clickedResultsTier5}</p>
+                                            <p id="selectedResults" style={selectedResults}> {this.state.clickedResultsTier6}</p>
                                         </div>
                                         {/*<div className="ms-Grid-col ms-lg3">
                                             <p style={sensorTitle}>Sensor Data</p>
